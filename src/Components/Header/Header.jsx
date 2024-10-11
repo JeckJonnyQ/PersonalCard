@@ -1,5 +1,5 @@
 import PersonalPhoto from "../../assets/PersonalPhoto.png";
-import "./Header.css";
+import "./Header.scss";
 
 export default function Header() {
   return (
