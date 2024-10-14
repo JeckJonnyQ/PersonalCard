@@ -5,23 +5,28 @@
   padding: 20px 35px;
   max-width: 320px;
   width: 100%;
-  background-color: rgb(26, 27, 33);
+  background-color: var(--main-bg-color);
   box-shadow: -2px 4px 6px rgba(22, 22, 25, 0.4);
+  transition: all 2s ease;
 
-  // Dark Theme
   .main__title {
     font-size: 25px;
     font-weight: bold;
+    color: var(--main-title-color);
+    transition: all 2s ease;
   }
 
   .main__job {
     margin: 7px 0px 8px;
     font-size: 13px;
-    color: rgb(243, 191, 153);
+    color: var(--main-job-color);
+    transition: all 2s ease;
   }
 
   .main__weblink {
     font-size: 11px;
+    color: var(--main-weblink-color);
+    transition: all 2s ease;
   }
 
   .inner {
@@ -49,6 +54,7 @@
     }
 
     .email {
+      border: 1px solid rgb(209, 213, 219);
       color: rgb(55, 65, 81);
       background-color: rgb(255, 255, 255);
     }
@@ -68,11 +74,14 @@
     font-weight: bold;
     line-height: 150%;
     text-align: left;
+    color: var(--main-about_interest-color);
+    transition: all 2s ease;
   }
 
   .main__desc {
     font-size: 10px;
     line-height: 150%;
-    color: rgb(220, 220, 220);
+    color: var(--main-desc-color);
+    transition: all 2s ease;
   }
 }
