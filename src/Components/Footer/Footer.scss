@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0px;
   max-width: 100%;
   width: 100%;
 
@@ -16,6 +15,7 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: rgb(22, 22, 25);
+    box-shadow: -2px 4px 6px rgba(22, 22, 25, 0.4);
 
     .social-block__item {
       .social-block__item_link {
