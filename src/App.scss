@@ -11,8 +11,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 45px 115px;
+    margin: 140px 0px 0px;
+    padding: 20px 0px;
+    max-width: 550px;
+    width: 100%;
     background-color: rgb(35, 37, 44);
+
+    @media (max-width: 360px) {
+      background-color: rgb(28, 28, 28);
+    }
 
     &[data-theme="light"] {
       --main-title-color: rgb(43, 40, 58);
@@ -40,8 +47,12 @@
       width: 130px;
       height: 100px;
       position: absolute;
-      top: 2%;
+      top: 1%;
       left: 5%;
+
+      @media (max-width: 360px) {
+        top: 2.3%;
+      }
     }
 
     .switch {
